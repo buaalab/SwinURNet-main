@@ -8,12 +8,12 @@ Code for our paper:
 ## Abstract：
 Semantic segmentation is a crucial component for autonomous driving. However, the segmentation performance in unstructured road is challenging owing to the following reasons：(1) irregular shapes and varying sizes of road boundaries, (2) low contrast or blurred boundaries between the road and background, and (3) environmental factors such as changing light intensities and dust particles. To overcome these challenges, this study proposes SwinURNet, a Transformer-convoluted neural network (CNN) architecture for real-time point cloud segmentation in unstructured scenarios. First, the point cloud is projected onto a range image via spherical projection. Then, a lightweight ResNet34-based network is designed for encoding abstract features. A non-square Swin transformer is designed for decoding information and capturing high-resolution transverse features. A multidimensional information fusion module is introduced to balance the semantic differences between features maps in CNNs and attention maps in transformers. A multitask loss function comprising boundary, weighted cross-entropy, and Lovász–Softmax losses is introduced at the network end to guide network training. Experimental data from autonomous mining trucks in the Baiyuneboite mining area is used to evaluate the performance on unstructured roads. The proposed architecture is also applied on the public unstructured dataset RELLIS-3D and the large structured dataset SemanticKITTI. The experimental results show performance gains of 74.2, 42.6, and 61.6% in accuracy and 8–19 FPS inference speed with the proposed architecture, surpassing those of the compared methods.
 <p align="center">
-   <img src="assert/1.png" width="40%"> 
+   <img src="assert/1.png" width="80%"> 
 </p>
 
-**2024-06-20[:yum:]** Release training and testing codes of SwinURNet. You can find more details in the code.
+**2024-06-21[:yum:]** Release training and testing codes of SwinURNet. You can find more details in the code.
 
-**2024-06-17[:sunglasses:]** Release Mining site dataset, it is an unstructured dataset collected by LiDAR deployed on autonomous mining trucks in the Baiyuneboite, Inner Mongolia, China. 
+**2024-06-20[:sunglasses:]** Release Mining site dataset, it is an unstructured dataset collected by LiDAR deployed on autonomous mining trucks in the Baiyuneboite, Inner Mongolia, China. 
 
 ## Prepare:
 Download Mining site dataset from [baidu cloud disk](https://pan.baidu.com/s/1gJtstG1oNJJnnEuO_C7nFQ?pwd=1234). Download RELLIS-3D dataset from [baidu cloud disk](https://pan.baidu.com/s/1wWoqMd-aE7OwPgP3tWkeyg?pwd=1234). Download SemanticKITTI dataset from [official web](http://www.semantic-kitti.org/dataset.html).
