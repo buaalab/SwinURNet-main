@@ -12,11 +12,10 @@ Semantic segmentation is a crucial component for autonomous driving. However, th
 </p>
 
 **2024-06-21** Release training and testing codes of SwinURNet. You can find more details in the code.
-
-**2024-06-20** Release Mining site dataset, it is an unstructured dataset collected by LiDAR deployed on autonomous mining trucks in the Baiyuneboite, Inner Mongolia, China. 
+ 
 
 ## Prepare:
-Download Mining site dataset from [baidu cloud disk](https://pan.baidu.com/s/1gJtstG1oNJJnnEuO_C7nFQ?pwd=1234). Download RELLIS-3D dataset from [baidu cloud disk](https://pan.baidu.com/s/1wWoqMd-aE7OwPgP3tWkeyg?pwd=1234). Download SemanticKITTI dataset from [official web](http://www.semantic-kitti.org/dataset.html).
+Download RELLIS-3D dataset from [baidu cloud disk](https://pan.baidu.com/s/1wWoqMd-aE7OwPgP3tWkeyg?pwd=1234). Download SemanticKITTI dataset from [official web](http://www.semantic-kitti.org/dataset.html).
 
 ## Usage：
 ### Train：
